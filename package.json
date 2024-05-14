@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/weatherforecast-API.git"
   },
   "keywords": [
-    "weather forecast"," weather forecast api"," weather forecast tool"," weather forecast software"," weather forecast service"," weather forecast library"," weather forecast sdk"," weather forecast code"," weather forecast script"," weather forecast program"," weather forecast application"," weather forecast app"," weather forecast utility"," weather forecast helper"," weather forecast helper tool"," weather forecast helper software"," weather forecast helper service"," weather forecast helper library"," weather forecast helper sdk"," weather forecast helper code"," weather forecast helper script"," weather forecast helper program"," weather forecast helper application"," weather forecast helper app"," weather forecast helper utility"," weather forecast helper"
+    "weather forecast","weather forecast api","weather forecast tool","weather forecast software","weather forecast service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
