@@ -71,125 +71,22 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "location": {
-      "name": "San Francisco",
-      "region": "California",
-      "country": "United States of America",
-      "lat": 37.78,
-      "lon": -122.42,
-      "tz_id": "America/Los_Angeles",
-      "localtime_epoch": 1715571274,
-      "localtime": "2024-05-12 20:34"
-    },
-    "current": {
-      "tempC": 13.3,
-      "tempF": 55.9,
-      "windMph": 13.6,
-      "windKph": 22,
-      "windDegree": 280,
-      "windDir": "W",
-      "pressureMb": 1014,
-      "pressureIn": 29.93,
-      "precipMm": 0,
-      "precipIn": 0,
-      "feelslikeC": 11.9,
-      "feelslikeF": 53.4,
-      "visKm": 14,
-      "visMiles": 8,
-      "gustMph": 14.3,
-      "gustKph": 23
-    },
-    "forecast": {
-      "forecastday": [
-        {
-          "date": "2024-05-12",
-          "date_epoch": 1715472000,
-          "day": {
-            "maxtemp_c": 15.7,
-            "maxtemp_f": 60.2,
-            "mintemp_c": 11.7,
-            "mintemp_f": 53,
-            "avgtemp_c": 13.3,
-            "avgtemp_f": 55.9,
-            "maxwind_mph": 13,
-            "maxwind_kph": 20.9,
-            "totalprecip_mm": 0.12,
-            "totalprecip_in": 0,
-            "totalsnow_cm": 0,
-            "avgvis_km": 10,
-            "avgvis_miles": 6,
-            "avghumidity": 82,
-            "daily_will_it_rain": 1,
-            "daily_chance_of_rain": 83,
-            "daily_will_it_snow": 0,
-            "daily_chance_of_snow": 0,
-            "condition": {
-              "text": "Patchy rain nearby",
-              "code": 1063
-            },
-            "uv": 9
-          }
-        },
-        {
-          "date": "2024-05-13",
-          "date_epoch": 1715558400,
-          "day": {
-            "maxtemp_c": 15.3,
-            "maxtemp_f": 59.5,
-            "mintemp_c": 11,
-            "mintemp_f": 51.8,
-            "avgtemp_c": 12.8,
-            "avgtemp_f": 55,
-            "maxwind_mph": 12.8,
-            "maxwind_kph": 20.5,
-            "totalprecip_mm": 0.06,
-            "totalprecip_in": 0,
-            "totalsnow_cm": 0,
-            "avgvis_km": 10,
-            "avgvis_miles": 6,
-            "avghumidity": 81,
-            "daily_will_it_rain": 0,
-            "daily_chance_of_rain": 0,
-            "daily_will_it_snow": 0,
-            "daily_chance_of_snow": 0,
-            "condition": {
-              "text": "Partly Cloudy ",
-              "code": 1003
-            },
-            "uv": 8
-          }
-        },
-        {
-          "date": "2024-05-14",
-          "date_epoch": 1715644800,
-          "day": {
-            "maxtemp_c": 16.7,
-            "maxtemp_f": 62.1,
-            "mintemp_c": 10.5,
-            "mintemp_f": 50.8,
-            "avgtemp_c": 13.2,
-            "avgtemp_f": 55.8,
-            "maxwind_mph": 12.8,
-            "maxwind_kph": 20.5,
-            "totalprecip_mm": 0.02,
-            "totalprecip_in": 0,
-            "totalsnow_cm": 0,
-            "avgvis_km": 10,
-            "avgvis_miles": 6,
-            "avghumidity": 77,
-            "daily_will_it_rain": 0,
-            "daily_chance_of_rain": 0,
-            "daily_will_it_snow": 0,
-            "daily_chance_of_snow": 0,
-            "condition": {
-              "text": "Sunny",
-              "code": 1000
-            },
-            "uv": 8
-          }
-        }
-      ]
-    }
+    "feelslikeC": 15.1,
+    "feelslikeF": 59.2,
+    "gustKph": 13.6,
+    "gustMph": 8.4,
+    "precipIn": 0,
+    "precipMm": 0,
+    "pressureIn": 30.05,
+    "pressureMb": 1018,
+    "tempC": 15.1,
+    "tempF": 59.2,
+    "visKm": 16,
+    "visMiles": 9,
+    "windDegree": 260,
+    "windDir": "W",
+    "windKph": 11.2,
+    "windMph": 6.9
   }
 }
 ```
