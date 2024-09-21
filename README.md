@@ -71,22 +71,22 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "tempC": 17.8,
-    "tempF": 64,
-    "windMph": 4.3,
-    "windKph": 6.8,
-    "windDegree": 270,
+    "tempC": 17.2,
+    "tempF": 63,
+    "windMph": 9.4,
+    "windKph": 15.1,
+    "windDegree": 280,
     "windDir": "W",
-    "pressureMb": 1016,
-    "pressureIn": 30,
+    "pressureMb": 1015,
+    "pressureIn": 29.97,
     "precipMm": 0,
     "precipIn": 0,
-    "feelslikeC": 17.8,
-    "feelslikeF": 64,
+    "feelslikeC": 17.2,
+    "feelslikeF": 63,
     "visKm": 16,
     "visMiles": 9,
-    "gustMph": 13.7,
-    "gustKph": 22.1
+    "gustMph": 10.7,
+    "gustKph": 17.2
   },
   "code": 200
 }
